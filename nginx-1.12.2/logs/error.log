@@ -1,0 +1,85 @@
+2018/01/18 15:24:21 [error] 6848#8772: *1 CreateFile() "D:\nginx\nginx-1.12.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/01/18 15:37:40 [error] 6848#8772: *5 CreateFile() "D:\nginx\nginx-1.12.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2018/01/18 15:37:48 [emerg] 10480#10136: duplicate location "/" in D:\nginx\nginx-1.12.2/conf/nginx.conf:46
+2018/01/18 16:29:08 [emerg] 10668#10496: unknown log format "main" in D:\nginx\nginx-1.12.2/conf/nginx.conf:33
+2018/01/18 16:42:37 [emerg] 5032#5684: unknown log format "main" in D:\nginx\nginx-1.12.2/conf/nginx.conf:33
+2018/01/18 16:43:45 [emerg] 8676#8852: CreateFile() "D:\nginx\nginx-1.12.2/conf/gzip.conf" failed (2: The system cannot find the file specified) in D:\nginx\nginx-1.12.2/conf/nginx.conf:50
+2018/01/18 16:44:45 [notice] 8064#8832: signal process started
+2018/01/18 16:45:04 [notice] 5352#708: signal process started
+2018/01/18 16:45:04 [error] 5352#708: CreateFile() "D:\nginx\nginx-1.12.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/01/18 16:46:18 [notice] 10004#1128: signal process started
+2018/01/18 16:46:18 [error] 10004#1128: CreateFile() "D:\nginx\nginx-1.12.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/01/18 16:47:38 [notice] 6460#8968: signal process started
+2018/01/18 16:47:38 [error] 6460#8968: CreateFile() "D:\nginx\nginx-1.12.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/01/18 16:48:42 [notice] 8548#9460: using the "select" event method
+2018/01/18 16:48:42 [notice] 8548#9460: nginx/1.12.2
+2018/01/18 16:48:42 [info] 8548#9460: OS: 260200 build:9200, "", suite:100, type:1
+2018/01/18 16:48:42 [notice] 8548#9460: start worker processes
+2018/01/18 16:48:42 [notice] 8548#9460: start worker process 6312
+2018/01/18 16:48:42 [notice] 6312#6824: nginx/1.12.2
+2018/01/18 16:48:42 [info] 6312#6824: OS: 260200 build:9200, "", suite:100, type:1
+2018/01/18 16:48:42 [notice] 6312#6824: create thread 7676
+2018/01/18 16:48:42 [notice] 6312#6824: create thread 9164
+2018/01/18 16:48:42 [notice] 6312#6824: create thread 9384
+2018/01/18 16:48:42 [notice] 8548#9460: start worker process 2260
+2018/01/18 16:48:42 [notice] 2260#5716: nginx/1.12.2
+2018/01/18 16:48:42 [info] 2260#5716: OS: 260200 build:9200, "", suite:100, type:1
+2018/01/18 16:48:42 [notice] 2260#5716: create thread 5768
+2018/01/18 16:48:42 [notice] 2260#5716: create thread 5580
+2018/01/18 16:48:42 [notice] 2260#5716: create thread 3992
+2018/01/18 16:49:14 [info] 6312#7676: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:49:14 [info] 6312#7676: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:49:38 [info] 6312#7676: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:49:38 [info] 6312#7676: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:49:38 [info] 6312#7676: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:49:58 [info] 6312#7676: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:49:58 [info] 6312#7676: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:51:21 [info] 6312#7676: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:51:21 [info] 6312#7676: *17 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:51:21 [info] 6312#7676: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8083
+2018/01/18 16:58:30 [notice] 9352#6772: signal process started
+2018/01/18 16:58:30 [notice] 8548#9460: exiting
+2018/01/18 16:58:30 [notice] 2260#5716: gracefully shutting down
+2018/01/18 16:58:30 [notice] 6312#6824: gracefully shutting down
+2018/01/18 16:58:30 [notice] 2260#5580: exiting
+2018/01/18 16:58:30 [notice] 6312#9164: exiting
+2018/01/18 16:58:30 [notice] 2260#5768: exiting
+2018/01/18 16:58:30 [notice] 6312#7676: exiting
+2018/01/18 16:58:30 [notice] 6312#6824: exit
+2018/01/18 16:58:30 [notice] 2260#5716: exit
+2018/01/18 16:58:30 [notice] 8548#9460: worker process 2260 exited with code 0
+2018/01/18 16:58:30 [notice] 8548#9460: worker process 6312 exited with code 0
+2018/01/18 16:58:30 [notice] 8548#9460: exit
+2018/01/18 16:58:59 [notice] 7356#7440: signal process started
+2018/01/18 16:58:59 [error] 7356#7440: CreateFile() "D:\nginx\nginx-1.12.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/01/18 16:59:25 [notice] 2584#9664: signal process started
+2018/01/18 16:59:25 [error] 2584#9664: CreateFile() "D:\nginx\nginx-1.12.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/01/18 17:01:01 [notice] 10652#8652: using the "select" event method
+2018/01/18 17:01:01 [notice] 10652#8652: nginx/1.12.2
+2018/01/18 17:01:01 [info] 10652#8652: OS: 260200 build:9200, "", suite:100, type:1
+2018/01/18 17:01:01 [notice] 10652#8652: start worker processes
+2018/01/18 17:01:01 [notice] 10652#8652: start worker process 9928
+2018/01/18 17:01:01 [notice] 9928#7736: nginx/1.12.2
+2018/01/18 17:01:01 [info] 9928#7736: OS: 260200 build:9200, "", suite:100, type:1
+2018/01/18 17:01:01 [notice] 9928#7736: create thread 368
+2018/01/18 17:01:01 [notice] 9928#7736: create thread 4016
+2018/01/18 17:01:01 [notice] 9928#7736: create thread 756
+2018/01/18 17:01:01 [notice] 10652#8652: start worker process 1564
+2018/01/18 17:01:01 [notice] 1564#3808: nginx/1.12.2
+2018/01/18 17:01:01 [info] 1564#3808: OS: 260200 build:9200, "", suite:100, type:1
+2018/01/18 17:01:01 [notice] 1564#3808: create thread 11112
+2018/01/18 17:01:01 [notice] 1564#3808: create thread 7416
+2018/01/18 17:01:01 [notice] 1564#3808: create thread 6584
+2018/01/18 17:01:31 [notice] 5732#7424: signal process started
+2018/01/18 17:01:31 [notice] 10652#8652: exiting
+2018/01/18 17:01:31 [notice] 9928#7736: gracefully shutting down
+2018/01/18 17:01:31 [notice] 1564#3808: gracefully shutting down
+2018/01/18 17:01:31 [notice] 9928#4016: exiting
+2018/01/18 17:01:31 [notice] 1564#7416: exiting
+2018/01/18 17:01:31 [notice] 9928#368: exiting
+2018/01/18 17:01:31 [notice] 9928#7736: exit
+2018/01/18 17:01:31 [notice] 10652#8652: worker process 9928 exited with code 0
+2018/01/18 17:01:32 [notice] 1564#11112: exiting
+2018/01/18 17:01:32 [notice] 1564#3808: exit
+2018/01/18 17:01:32 [notice] 10652#8652: worker process 1564 exited with code 0
+2018/01/18 17:01:32 [notice] 10652#8652: exit
